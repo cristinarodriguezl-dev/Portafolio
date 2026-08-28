@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portafolio - Navegación Completa y Herramientas</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="ambient-bg">
+        <div class="ambient-glow glow-1"></div>
+        <div class="ambient-glow glow-2"></div>
+        <div class="ambient-glow glow-3"></div>
+    </div>
+
+    <div class="ambient-bg" id="star-container"></div>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <span>PORTFOLIO</span>
+            </div>
+            <nav class="nav-links">
+                <a class="nav-link" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+                <a class="nav-link" href="#herramientas">Herramientas</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </nav>
+
+            <nav class="nav-links-mobile">
+                <a class="nav-link" href="#inicio">Inicio</a>
+                <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+                <a class="nav-link" href="#herramientas">Herramientas</a>
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section" id="inicio">
+            <div class="profile-img-container">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiBM5eBDHAALoyN5wvk9PmzXKqx_azhEd6rD0_H4JMNorrrni3v9QzU7lRfQTKm5JFMutcehxG8XFoGwxdP_FcHg8I_R8vzLl3GV2uyHpppKIxSsIdXVaIANypgNrCD-B9sVrV0CQ2kEMerBfwSmj05mu_wIlQBY5NIAlliF6TcZ9Gl25hAWSo7JHY70H47Ql4BNLKRgHmIYhV4lPZjiX9LyWblv4vECHIrlr2OaIP14O3mRFgbNsrtLlye4HsrenTcqU"
+                    alt="Cristina Rodríguez López" class="profile-img">
+            </div>
+            <div class="hero-content">
+                <h1 class="section-title">Cristina Rodríguez López</h1>
+                <h2 class="hero-subtitle">Desarrolladora Full-Stack</h2>
+                <p class="hero-desc">Transformando ideas complejas en interfaces elegantes y funcionales.</p>
+            </div>
+            <a class="btn-primary" href="#proyectos">Ver Proyectos</a>
+        </section>
+
+        <section class="about-section" id="sobre-mi">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="about-text">
+                <p>Soy una apasionada del código limpio y la resolución de problemas. Mi enfoque se centra en crear
+                    arquitecturas robustas que sirvan como base para experiencias de usuario excepcionales.</p>
+                <p>Con un profundo interés en la usabilidad y la eficiencia técnica, construyo soluciones digitales que
+                    no solo funcionan a la perfección, sino que también son un placer visual para el usuario final.</p>
+                <p>Siempre en constante aprendizaje, explorando las últimas tecnologías para mantener mis habilidades a
+                    la vanguardia del desarrollo y ofrecer cada día mejores productos.</p>
+            </div>
+        </section>
+
+        <section class="education-section" id="formacion">
+            <h2 class="section-title">Formación</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot-1"></div>
+                    <h3 class="timeline-title">Digitech. Desarrollo Web Fullstack con IA</h3>
+                    <p class="timeline-date">Factoría F5 | 2026</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot-2"></div>
+                    <h3 class="timeline-title timeline-title-dim">Curso Analista de Sistemas de Información</h3>
+                    <p class="timeline-date timeline-date-dim">AreaFormación | 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-section" id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="material-symbols-outlined skill-icon">desktop_windows</span>
+                        <h3 class="skill-title">Frontend</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">React</span>
+                        <span class="tag">Next.js</span>
+                        <span class="tag">Tailwind</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="material-symbols-outlined skill-icon">database</span>
+                        <h3 class="skill-title">Backend</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Node.js</span>
+                        <span class="tag">PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-card" id="herramientas">
+                    <div class="skill-header">
+                        <span class="material-symbols-outlined skill-icon">build</span>
+                        <h3 class="skill-title">Herramientas</h3>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Git</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">Canva</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-section" id="proyectos">
+            <h2 class="section-title">Proyectos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <div class="project-overlay"></div>
+                        <img class="project-img"
+                            data-alt="A clean, minimalist UI design mockup of a scalable e-commerce platform. Displayed floating in an abstract deep space environment with dark blues and subtle lavender glowing accents. The interface itself is modern, utilizing high-contrast typography and structured grid layouts, reflecting professional frontend development."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL8JYzy6yTuoEM5EIQ53BDp25yC2ZHYH5qd3vhkigsuZurW-XTpCEsMuFgRKSCT1JAeUnIGQog1izl0yFm0IB9HNDM5jVkz2y7RaDtZ9TX5Tb_nkkdvSJLvxDQzwurZpHFW9WFbAvRRcOFOYVgk024l-arp3uZFH6jm7QE9cs2DG2d3rDGIPP-9i9bNDz2M4rN3X6hn1Yk9RxaYfIJok2rHHpv5I3BTQKcLnGVTEnOUdzvTrFZws62Og">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Plataforma de comercio.</h3>
+                        <p class="project-desc">Comercio textil online con diseño futurista.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">API</span>
+                            <span class="project-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="#"><span
+                                    class="material-symbols-outlined project-link-icon">open_in_new</span> Ver</a>
+                            <a class="project-link dim" href="#"><span
+                                    class="material-symbols-outlined project-link-icon">code</span> Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <div class="project-overlay"></div>
+                        <img class="project-img"
+                            data-alt="A sleek, data-heavy SaaS dashboard interface visualization. The design relies on complex data visualizations like line graphs and bar charts rendered in precise, calm tones of blue and silver, matching a dark mode aesthetic. The background is an abstract, minimalist representation of digital space, conveying advanced technical capability."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3EsqpZkSo2UyeyIlq11UTHx5-JaPUTrEF01OtMjGIgqaxpMwqhji_kbPzIwjJ24q0eWqG6DvIioG_wNAQNNkFfGs4eIzfRbQRB_I4jMGbCMmiMWJafaNB9h9piKxbvZ2dENV4tQWobN0XkuW8ISa6GtA1GDoq6_sUBEEbL2--aOib-B0BM2qjwm1pnkBcntUDdzzDlFTEQRXIpREu572Di9LxkDOsTNPIvRdBlp2wy_0XpUPCRmv1iw">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Portal Inmobiliario</h3>
+                        <p class="project-desc">Portal de coliving para estudiantes con diseño cálido y acogedor.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://inmobiliaria-coral-five.vercel.app/"><span
+                                    class="material-symbols-outlined project-link-icon">open_in_new</span> Ver</a>
+                            <a class="project-link dim"
+                                href="https://github.com/cristinarodriguezl-dev/Inmobiliaria"><span
+                                    class="material-symbols-outlined project-link-icon">code</span> Código</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-img-container">
+                        <div class="project-overlay"></div>
+                        <img class="project-img"
+                            data-alt="A conceptual representation of a real-time instant messaging application architecture. Glowing nodes and connection lines set against a vast, deep navy cosmic background. Minimalist UI chat bubbles subtly integrated into the network visualization to represent instant, seamless communication. Clean, professional, and abstract."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGFPnuXyesyBfRK16oJ-Rj7MAWv88pqhtUJkbdbWcpjku5nFJEMTRKYKO2qjmKJ4VHcZZgx_O8Lhg2xGEJsxemQFb1f4PG4OaJTefziZJIv_TNQZ-rsLvAAfdOXdWFZWQNZc2gj-Ma0iB9MG5G8Qc9g6InzM_EY36OhKI9jy-M7U3n_PtPm3ILzAdI7HHZ1jJmyz7tgyqLL6sbheCHX3RTdKs77ePFy_olPKUxkzflqVRQZOsGYHKm9Q">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Web Deportiva</h3>
+                        <p class="project-desc">Web informativa del Mundial de Futbol 2026 con diseño dinámico.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Javascript</span>
+                            <span class="project-tag">API</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="#"><span
+                                    class="material-symbols-outlined project-link-icon">open_in_new</span> Ver</a>
+                            <a class="project-link dim" href="#"><span
+                                    class="material-symbols-outlined project-link-icon">code</span> Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contacto">
+            <div class="contact-info">
+                <h2 class="section-title">Contacto</h2>
+                <p class="contact-desc">¿Interesado en colaborar? Hablemos sobre cómo puedo aportar valor a tu próximo
+                    proyecto.</p>
+                <div class="contact-methods">
+                    <a class="contact-method" href="#">
+                        <span class="material-symbols-outlined contact-icon">mail</span>
+                        cristinarodriguez.cv@gmail.com
+                    </a>
+                    <a class="contact-method" href="#">
+                        <span class="material-symbols-outlined contact-icon">code_blocks</span>
+                        GitHub
+                    </a>
+                    <a class="contact-method" href="#">
+                        <span class="material-symbols-outlined contact-icon">link</span>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label class="sr-only">Nombre</label>
+                    <input class="form-input" placeholder="Nombre" type="text">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only">Email</label>
+                    <input class="form-input" placeholder="Email" type="email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only">Mensaje</label>
+                    <textarea class="form-textarea" placeholder="Mensaje" rows="5"></textarea>
+                </div>
+                <button class="btn-submit" type="button">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <span class="footer-copy">© 2026 CRL PORTFOLIO</span>
+            <div class="footer-links">
+                <a class="footer-link" href="#">GitHub</a>
+                <a class="footer-link" href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="stars.js"></script>
+</body>
+
+</html>
