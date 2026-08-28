@@ -1,4 +1,3 @@
-// Enhanced ambient star generation script
         document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('star-container');
             const numStars = 300; // Increased density slightly
