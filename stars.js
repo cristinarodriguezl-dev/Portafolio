@@ -1,6 +1,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('star-container');
-            const numStars = 300; // Increased density slightly
+            const numStars = 300;
             const colors = ['#FFFFFF', '#A8C5D6', '#8B8FC7'];
 
             for (let i = 0; i < numStars; i++) {
@@ -14,7 +14,7 @@
                 star.style.height = size;
 
                 star.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
-                star.style.opacity = (Math.random() * 0.3) + 0.2; // 20-50% opacity
+                star.style.opacity = (Math.random() * 0.3) + 0.2;
                 star.style.borderRadius = '50%';
 
                 container.appendChild(star);
