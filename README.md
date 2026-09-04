@@ -7,7 +7,7 @@
 - 📂 **Proyectos Destacados**: Muestra mis mejores trabajos
 - 🎯 **Sección Sobre Mí**: Conoce más sobre mi perfil
 - 🎨 **Diseño Moderno**: Interfaz atractiva y responsive
-- 🌌 **Efecto de Estrellas**: Un hermoso fondo con estrellas que se mueven suavemente
+- 🌌 **Efecto de Estrellas**: Un hermoso fondo con estrellas que se actualizan con la página
 
 ## 🛠️ Tecnologías Usadas
 
