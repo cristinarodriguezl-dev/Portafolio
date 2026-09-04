@@ -1,6 +1,6 @@
         document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('star-container');
-            const numStars = 300;
+            const numStars = 1000;
             const colors = ['#FFFFFF', '#A8C5D6', '#8B8FC7'];
 
             for (let i = 0; i < numStars; i++) {
