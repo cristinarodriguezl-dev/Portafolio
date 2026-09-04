@@ -47,11 +47,10 @@ Proyecto educativo para estudiantes que buscan piso compartido. Interfaz dinámi
 Soy una apasionada del código limpio y la resolución de problemas. Mi enfoque se centra en crear arquitecturas robustas que sirvan como base para experiencias de usuario excepcionales. Con un profundo interés en la usabilidad y la eficiencia técnica, construyo soluciones digitales que no solo funcionan a la perfección, sino que también son un placer visual para el usuario final. Siempre en constante aprendizaje, explorando las últimas tecnologías para mantener mis habilidades a la vanguardia del desarrollo y ofrecer cada día mejores productos.
 
 ## 📞 Contacto
-
 Si quieres contactarme:
-- **Correo electrónico**: [cristinarodriguez-dev@proton.me]
-- **LinkedIn**: [link]
-- **GitHub**: [cristinarodriguezl-dev]
+- **Correo electrónico**: cristinarodriguez-dev@proton.me
+- **LinkedIn**: [Cristina Rodríguez López](https://www.linkedin.com/in/cristinarodriguez-dev/)
+- **GitHub**: [cristinarodriguezl-dev](https://github.com/cristinarodriguezl-dev)
 
 ## 📝 Licencia
 
