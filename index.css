@@ -797,3 +797,31 @@ textarea {
 .footer-link:hover {
   color: var(--primary);
 }
+
+#form-status {
+    margin-top: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: var(--radius-xl);
+    font-family: var(--font-code-label);
+    font-size: 13px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    display: none;
+}
+
+#form-status.success,
+#form-status.error {
+    display: block;
+}
+
+#form-status.success {
+    border: 1px solid rgba(124, 217, 146, 0.3);
+    background-color: rgba(124, 217, 146, 0.05);
+    color: #7CD992;
+}
+
+#form-status.error {
+    border: 1px solid rgba(232, 136, 136, 0.3);
+    background-color: rgba(232, 136, 136, 0.05);
+    color: #E88888;
+}
