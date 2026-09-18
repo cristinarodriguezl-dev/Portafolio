@@ -27,6 +27,7 @@
 ├── stars.js             # Generador de estrellas de fondo
 ├── index.css            # Estilos CSS
 ├── README.md            # Este archivo
+├── LICENSE              # Licencia del proyecto
 └── imgs/                # Imágenes de los proyectos
 ```
 
