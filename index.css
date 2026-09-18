@@ -395,17 +395,23 @@ textarea {
 .skills-section {
   max-width: 56rem;
   margin: 0 auto;
+  display: grid;
+}
+
+.skills-section2 {
+  max-width: 56rem;
+  margin: calc(-1 * var(--section-gap) + 1.5rem) auto 0;
+  display: grid;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
 @media (min-width: 768px) {
   .skills-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
